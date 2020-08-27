@@ -1,15 +1,50 @@
 {
   "name": "bottemplate",
   "version": "1.0.0",
-  "main": "src/index",
-  "author": "Torin Stephen",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^7.0.0",
-    "eslint-config-tesseract": "^0.0.2"
-  },
+  "description": "",
+  "main": "./src/index.js",
   "dependencies": {
-    "discord.js": "^12.2.0",
-    "fs": "0.0.1-security"
-  }
+    "debug": "^4.1.1",
+    "discord.js": "^12.3.1",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.6",
+    "glob-parent": "^5.1.1",
+    "import-fresh": "^3.2.1",
+    "is-fullwidth-code-point": "^2.0.0",
+    "is-glob": "^4.0.1",
+    "isexe": "^2.0.0",
+    "js-tokens": "^4.0.0",
+    "json-schema-traverse": "^0.4.1",
+    "json-stable-stringify-without-jsonify": "^1.0.1",
+    "lodash": "^4.17.20",
+    "mime-db": "^1.44.0",
+    "mime-types": "^2.1.27",
+    "minimatch": "^3.0.4",
+    "minimist": "^1.2.5",
+    "mkdirp": "^0.5.5",
+    "ms": "^2.1.2",
+    "natural-compare": "^1.4.0",
+    "parent-module": "^1.0.1",
+    "path-is-absolute": "^1.0.1",
+    "path-key": "^3.1.1",
+    "prelude-ls": "^1.2.1",
+    "progress": "^2.0.3",
+    "punycode": "^2.1.1",
+    "regexpp": "^3.1.0",
+    "resolve-from": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torin-stephen/bot.git"
+  },
+  "author": "Torin Stephen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torin-stephen/bot/issues"
+  },
+  "homepage": "https://github.com/torin-stephen/bot#readme"
 }

@@ -1,0 +1,4 @@
+// Do "npm i discord.js fs glob" to install these //
+discord.js
+fs
+glob
