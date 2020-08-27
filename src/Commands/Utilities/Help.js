@@ -41,11 +41,9 @@ module.exports = class extends Command {
 				`Command Parameters: \`<>\` is strict & \`[]\` is optional`
 			]);
 			let categories;
-			if (!this.client.owners.includes(message.author.id)) {
-				categories = this.client.utils.removeDuplicates(this.client.commands.filter(cmd => cmd.category !== 'Owner').map(cmd => cmd.category));
-			} else {
-				categories = this.client.utils.removeDuplicates(this.client.commands.map(cmd => cmd.category));
-			}
+
+			categories = this.client.utils.removeDuplicates(this.client.commands.map(cmd => cmd.category));
+
 
 			for (const category of categories) {
 				embed.addField(`**${this.client.utils.capitalise(category)}**`, this.client.commands.filter(cmd =>
