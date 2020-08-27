@@ -1,0 +1,15 @@
+{
+  "name": "bottemplate",
+  "version": "1.0.0",
+  "main": "src/index",
+  "author": "Torin Stephen",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-tesseract": "^0.0.2"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "fs": "0.0.1-security"
+  }
+}
